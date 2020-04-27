@@ -17,6 +17,8 @@ export const DayEdit = () => {
   const currentDayData = allData.find(item => item.id === location.state);
   const dispatch = useDispatch();
 
+  const refreshData = days => dispatch(setDaysData({ days }));
+
   const inputChangeHandler = event => {
     const { name: mealName, value } = event.currentTarget;
     const days = allData.map(item => {
@@ -31,11 +33,19 @@ export const DayEdit = () => {
       }
       return item;
     });
-    dispatch(setDaysData({ days }));
+    refreshData(days);
   };
 
   const removeClickHandler = mealName => {
-    console.log(`Unable to remove a ${mealName}. Eat properly ;)`);
+    const days = allData.map(item => {
+      if (item.id === currentDayData.id) {
+        const currentItem = { ...item };
+        delete currentItem.data[mealName];
+        return currentItem;
+      }
+      return item;
+    });
+    refreshData(days);
   };
 
   const BackLink = React.memo(() => (
@@ -50,7 +60,9 @@ export const DayEdit = () => {
         <div className="day-edit__meal" key={mealName}>
           <div className="day-edit__meal-name-wrap">
             <h2 className="day-edit__meal-name">{mealName}</h2>
-            <IoIosRemoveCircleOutline onClick={() => removeClickHandler(mealName)} />
+            {mealName === 'snack 1' || mealName === 'snack 2' ? (
+              <IoIosRemoveCircleOutline onClick={() => removeClickHandler(mealName)} />
+            ) : ''}
           </div>
           <input
             className="day-edit__meal-description"
