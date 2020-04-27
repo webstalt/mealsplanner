@@ -1,12 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86e9c0ae-3da0-472c-a20f-5272ea545399" name="Default Changelist" comment="create main pages and data request">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/IngredientsWIndow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DayEdit.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DayEdit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/WeekScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/WeekScreen.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/weekScreen/weekScreen.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/weekScreen/weekScreen.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1akl2mKVzn2FpfO9WfxHBnNh0HB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mariia_Mironova\WebstormProjects\mealsplanner\src\redux\weekScreen" />
+      <recent name="C:\Users\Mariia_Mironova\WebstormProjects\mealsplanner\src\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86e9c0ae-3da0-472c-a20f-5272ea545399" name="Default Changelist" comment="" />
+      <created>1587287267391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587287267391</updated>
+      <workItem from="1587287270183" duration="23387000" />
+      <workItem from="1587367608420" duration="226000" />
+      <workItem from="1587486070409" duration="1910000" />
+      <workItem from="1587563345198" duration="1251000" />
+      <workItem from="1587577285275" duration="612000" />
+      <workItem from="1587625743694" duration="42000" />
+      <workItem from="1587665844834" duration="19250000" />
+      <workItem from="1587817117627" duration="10980000" />
+      <workItem from="1587836609564" duration="9133000" />
+      <workItem from="1587876037998" duration="3519000" />
+      <workItem from="1587972959045" duration="469000" />
+      <workItem from="1587980589433" duration="964000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create main pages and data request" />
+    <option name="LAST_COMMIT_MESSAGE" value="create main pages and data request" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587728368392">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1587728368392" />
+    <state x="352" y="121" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587291406625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="352" y="121" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587291406625" />
+    <state x="188" y="0" key="CommitChangelistDialog2" timestamp="1587981531319">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="188" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587981531319" />
+    <state x="121" y="43" key="DiffContextDialog" timestamp="1587981346362">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="43" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1587981346362" />
+    <state x="371" y="34" key="FileChooserDialogImpl" timestamp="1587307348117">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="34" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587307348117" />
+    <state width="1238" height="148" key="GridCell.Tab.0.bottom" timestamp="1587981403495">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="148" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587981403495" />
+    <state width="1238" height="148" key="GridCell.Tab.0.center" timestamp="1587981403494">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="148" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587981403494" />
+    <state width="1238" height="148" key="GridCell.Tab.0.left" timestamp="1587981403494">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="148" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587981403494" />
+    <state width="1238" height="148" key="GridCell.Tab.0.right" timestamp="1587981403495">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="148" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587981403495" />
+    <state x="-73" y="0" width="1280" height="680" key="SettingsEditor" timestamp="1587818215351">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-73" y="0" width="1280" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587818215351" />
+    <state x="100" y="100" width="1080" height="480" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587981156756">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="100" y="100" width="1080" height="480" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1587981156756" />
+    <state x="195" y="0" width="891" height="680" key="find.popup" timestamp="1587980658881">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="195" y="0" width="891" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587980658881" />
+    <state x="213" y="147" width="840" height="1034" key="run.anything.popup" timestamp="1587727647401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="213" y="147" width="840" height="1034" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1587727647401" />
+    <state x="219" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1587819223686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="219" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587819223686" />
   </component>
 </project>

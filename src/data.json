@@ -1,0 +1,23 @@
+{
+  "days": [{
+    "id": 0,
+    "dayName": "Sunday",
+    "data": {
+      "breakfast": "Porridge with coconut milk and nuts",
+      "snack 1": "Avo toast",
+      "lunch": "Pasta bolognese and salad",
+      "snack 2": "Yogurt and berries",
+      "dinner": "Steamed fish with vegetables"
+    }
+  }, {
+    "id": 1,
+    "dayName": "Monday",
+    "data": {
+      "breakfast": "Omelette with tomatoes and cheese",
+      "snack 1": "Urbec and toast",
+      "lunch": "Veal steak and potatoes",
+      "snack 2": "Greek salad",
+      "dinner": "Fried turkey with zucchini"
+    }
+  }]
+}

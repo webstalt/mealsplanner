@@ -1,0 +1,29 @@
+.day-edit {
+  &__back-link {
+    margin-bottom: 1em;
+  }
+
+  &__meal {
+    margin-bottom: 0.5em;
+    padding: 1em;
+  }
+
+  &__meal-name-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__meal-name {
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+  }
+
+  &__meal-description {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+
+  &__meal-consist {
+    margin-bottom: 0.5em;
+  }
+}

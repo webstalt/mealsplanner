@@ -1,0 +1,40 @@
+.wrapper {
+  padding: 0.5em;
+}
+
+.day {
+  padding: 0.5em;
+  margin-bottom: 1em;
+
+  &__title {
+    margin-bottom: 1.2em;
+    text-align: left;
+    font-weight: 500;
+  }
+}
+
+.meal {
+  display: flex;
+  margin-bottom: 1em;
+  &__title, &__name, &__ingredients {
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+
+  &__title {
+    text-align: left;
+    flex: 0 1 20%;
+    text-transform: capitalize;
+  }
+
+  &__name {
+    flex: 0 1.5 50%;
+    max-width: 50%;
+    word-break: break-word;
+  }
+
+  &__ingredients {
+    flex: 0 1 30%;
+  }
+}
